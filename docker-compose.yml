@@ -1,8 +1,8 @@
 version: '3'
 services:
   satisfactory-server:
-    container_name: 'uy-server'
-    hostname: 'uy-server'
+    container_name: 'satisfactory-server'
+    hostname: 'satisfactory-server'
     image: 'wolveix/satisfactory-server:latest'
     ports:
       - '7777:7777/udp'
