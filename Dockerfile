@@ -15,7 +15,7 @@ COPY --chown=steam:steam *.ini run.sh /home/steam/
 
 WORKDIR /config
 
-ENV AUTOPAUSE="true" \
+ENV AUTOPAUSE="false" \
     AUTOSAVEINTERVAL="300" \
     AUTOSAVENUM="5" \
     AUTOSAVEONDISCONNECT="true" \
